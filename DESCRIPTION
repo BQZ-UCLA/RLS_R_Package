@@ -1,0 +1,15 @@
+Package: RLS
+Type: Package
+Title: Reweighted Least Squares
+Version: 0.1.0
+Authors@R: person("Bang Quan Zheng", email = "bangquan@ucla.edu",
+                  role = c("aut", "cre"))
+Description: This package is to run reweighted least squares estimator in structural equation models or confirmatory factor analysis.
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.1)
+Imports:
+     lavaan,
+     stringr
+RoxygenNote: 7.2.3
